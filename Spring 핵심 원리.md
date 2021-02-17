@@ -36,8 +36,10 @@
 
 ### 3-1. 기술적인 부분과 핵심 비지니스 로직을 분리하는 전략
 
-앞에서도 살펴 기업이 요구하는 핵심 비지니스 로직 전후에 설정되어야 하는 트랜잭션, 권한 체크등이 엔터프라이즈 시스템이 갖춰야하는 기능이다. 이런 기능과 비지니스 로직을 분리하는 스프링의 전략은 `AOP`이다. 구글에 검색한 AOP(Aspect Oriented Programming)의 정의는 이렇다.
+앞에서도 살펴보았듯이 기업이 요구하는 핵심 비지니스 로직 전후에 설정되어야 하는 `트랜잭션`, `권한 체크`등이 엔터프라이즈 시스템이 갖춰야 하는 기능입니다. 이런 기능과 비지니스 로직을 분리하는 스프링의 전략은 `AOP`입니다. 구글에 검색한 `AOP(Aspect Oriented Programming)`의 정의는 아래와 같습니다.
+
+["관점 지향 프로그래밍(aspect-oriented programming, AOP)은 횡단 관심사(cross-cutting concern)의 분리를 허용함으로써 모듈성을 증가시키는 것이 목적인 프로그래밍 패러다임이다."](https://ko.wikipedia.org/wiki/%EA%B4%80%EC%A0%90_%EC%A7%80%ED%96%A5_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDgwMDUxMywtODg0NDgyOTcyLDE5ND
-M5NjMxNzldfQ==
+eyJoaXN0b3J5IjpbLTIwMjY2ODI4NTcsLTg4NDQ4Mjk3MiwxOT
+QzOTYzMTc5XX0=
 -->

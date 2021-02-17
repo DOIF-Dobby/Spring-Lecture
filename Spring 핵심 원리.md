@@ -63,7 +63,12 @@
 스프링의 핵심 개발자들이 함께 쓴 `Professional Spring Framework`라는 책에서 스프링 핵심 개발자들은 **"스프링의 정수는 엔터프라이즈 서비스 기능을 POJO에 제공하는 것"** 이라고 했습니다. 여기서 `POJO`란 무엇일까요?
 
 > ["Plain Old Java Object, 간단히 POJO는 말 그대로 해석을 하면 오래된 방식의 간단한 자바 오브젝트라는 말로서 Java EE 등의 중량 프레임워크들을 사용하게 되면서 해당 프레임워크에 종속된 "무거운" 객체를 만들게 된 것에 반발해서 사용되게 된 용어이다."](https://ko.wikipedia.org/wiki/Plain_Old_Java_Object)
+
+`POJO`라는 단어를 만든 [마틴 파울러](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%8B%B4_%ED%8C%8C%EC%9A%B8%EB%9F%AC)는 다음과 같이 그 기원을 밝혔습니다.
+> ["우리는 사람들이 자기네 시스템에 보통의 객체를 사용하는 것을 왜 그렇게 반대하는지 궁금하였는데, 간단한 객체는 폼 나는 명칭이 없기 때문에 그랬던 것이라고 결론지었다. 그래서 적당한 이름을 하나 만들어 붙였더니, 아 글쎄, 다들 좋아하더라고."](https://ko.wikipedia.org/wiki/Plain_Old_Java_Object)
+
+아래 그림은 스프링 소스의 CTO인 아드라인 콜리어가 스프링의 핵심 개념을 설명하기 위해 만든 그림입니다. 그림에서도 알 수 있듯이 스프링의 핵심은 `DI`,`AOP, `서비스 추상화를 통해 복잡한 엔터프라이즈 기능을 구현하고 핵심 비지니스 로직을 담은 POJO에 제공하는 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzNzE0ODA3LDEyMDYzMzg0MywxMjA1Mj
+eyJoaXN0b3J5IjpbMzkyMjU5MjY2LDEyMDYzMzg0MywxMjA1Mj
 QwNjI5LC04ODQ0ODI5NzIsMTk0Mzk2MzE3OV19
 -->

@@ -2,7 +2,8 @@
 #### author: 김명진
 #### date: 2021-02-17
 
-# 예제로 배우는 스프링
+# 예제로 배우는 스프링 
+## 스프링은 무엇인가
 
 ## 1.  스프링의 등장 배경
 
@@ -28,6 +29,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTI0MzMzMSwtODg0NDgyOTcyLDE5ND
+eyJoaXN0b3J5IjpbMjEzMjkyNzEwOSwtODg0NDgyOTcyLDE5ND
 M5NjMxNzldfQ==
 -->

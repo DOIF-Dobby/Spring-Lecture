@@ -56,8 +56,14 @@
 
 앞에서 살펴본 스프링의 두 가지 전략, `AOP`와 `서비스 추상화`는 `의존성 주입(DI)`을 바탕으로 구현됩니다. 여기서 **의존성 주입이란 코드 상에 있는 의존성을 외부에서 설정하는 기술**입니다. 그리고 DI는 객체 지향 설계 없이는 그 존재 의미가 없습니다. 스프링은 단지 `DI`, `AOP`, `서비스 추상화`와 같은 기술을 편하게 사용할 수 있게 도와줄 뿐입니다. 또한 이러한 기술들은 스프링만의 기술이 아닙니다. 객체 지향 언어를 더욱 더 객체 지향적으로 만들어 주는 기법일 뿐입니다. 스프링은 단지 자바의 객체 지향적인 특성을 살려 개발 할 수 있도록 도와주는 녀석입니다.  **결국 스프링이 엔터프라이즈 시스템의 복잡함을 해결하고자 사용했던 핵심 도구는 객체 지향입니다.**
 
+## 4. 스프링의 핵심
 
+### 4-1. 핵심은 POJO
+
+스프링의 핵심 개발자들이 함께 쓴 `Professional Spring Framework`라는 책에서 스프링 핵심 개발자들은 **"스프링의 정수는 엔터프라이즈 서비스 기능을 POJO에 제공하는 것"** 이라고 했습니다. 여기서 `POJO`란 무엇일까요?
+
+> ["Plain Old Java Object, 간단히 POJO는 말 그대로 해석을 하면 오래된 방식의 간단한 자바 오브젝트라는 말로서 Java EE 등의 중량 프레임워크들을 사용하게 되면서 해당 프레임워크에 종속된 "무거운" 객체를 만들게 된 것에 반발해서 사용되게 된 용어이다."](https://ko.wikipedia.org/wiki/Plain_Old_Java_Object)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjUwMDM2OTcsMTIwNjMzODQzLDEyMD
-UyNDA2MjksLTg4NDQ4Mjk3MiwxOTQzOTYzMTc5XX0=
+eyJoaXN0b3J5IjpbNjEzNzE0ODA3LDEyMDYzMzg0MywxMjA1Mj
+QwNjI5LC04ODQ0ODI5NzIsMTk0Mzk2MzE3OV19
 -->

@@ -87,8 +87,9 @@
 
 >**"IoC/DI, AOP, PSA와 같은 객체지향 기술로 자바 엔터프라이즈 개발을 편하게 해주고 애플리케이션 전반에 걸쳐 POJO를 중심으로 객체지향적 개발을 할 수 있게 도와주는 애플리케이션 프레임워크"**
 
+여담으로 스프링이라는 이름의 의미는 _"EJB의 시대를 겨울(Winter)로 정의하고, 이젠 봄(Spring)이 왔다는 의미"_ 라고 합니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5NTgxMzQzLDEyMDYzMzg0MywxMjA1Mj
-QwNjI5LC04ODQ0ODI5NzIsMTk0Mzk2MzE3OV19
+eyJoaXN0b3J5IjpbMTMyOTYzNTM2OSwxMjA2MzM4NDMsMTIwNT
+I0MDYyOSwtODg0NDgyOTcyLDE5NDM5NjMxNzldfQ==
 -->

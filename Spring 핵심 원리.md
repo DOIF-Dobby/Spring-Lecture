@@ -73,12 +73,22 @@
 
 ### 4-2. POJO의 조건
 
-POJO는 평범한 자바오브젝트라는 뜻이지만 다음의 세 가지 조건을 충족해야 합니다.
+`POJO`는 `평범한 자바 오브젝트`라는 뜻이지만 다음의 세 가지 조건을 충족해야 합니다.
 
 -   특정 규약에 종속되지 않아야 한다.
 -   특정 환경에 종속되지 않아야 한다.
 -   책임과 역할이 다른 코드를 한 클래스에 몰아 넣은 덩치 큰 만능 클래스가 아니여야 한다.
+
+**결국 POJO란 객체지향적인 원리에 충실하면서, 특정 환경과 기술에 종속되지 않고 필요에 따라 재활용될 수 있는 방식으로 설계된 오브젝트를 뜻합니다.**
+
+## 5. 결론
+
+위에서 정리한 내용으로 제 나름 스프링을 정의하자면 이렇습니다.
+
+>**"IoC/DI, AOP, PSA와 같은 객체지향 기술로 자바 엔터프라이즈 개발을 편하게 해주고 애플리케이션 전반에 걸쳐 POJO를 중심으로 객체지향적 개발을 할 수 있게 도와주는 애플리케이션 프레임워크"**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTAyNTcxNCwxMjA2MzM4NDMsMTIwNT
-I0MDYyOSwtODg0NDgyOTcyLDE5NDM5NjMxNzldfQ==
+eyJoaXN0b3J5IjpbOTI5NTgxMzQzLDEyMDYzMzg0MywxMjA1Mj
+QwNjI5LC04ODQ0ODI5NzIsMTk0Mzk2MzE3OV19
 -->

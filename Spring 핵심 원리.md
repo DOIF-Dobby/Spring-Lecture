@@ -67,8 +67,18 @@
 `POJO`라는 단어를 만든 [마틴 파울러](https://ko.wikipedia.org/wiki/%EB%A7%88%ED%8B%B4_%ED%8C%8C%EC%9A%B8%EB%9F%AC)는 다음과 같이 그 기원을 밝혔습니다.
 > ["우리는 사람들이 자기네 시스템에 보통의 객체를 사용하는 것을 왜 그렇게 반대하는지 궁금하였는데, 간단한 객체는 폼 나는 명칭이 없기 때문에 그랬던 것이라고 결론지었다. 그래서 적당한 이름을 하나 만들어 붙였더니, 아 글쎄, 다들 좋아하더라고."](https://ko.wikipedia.org/wiki/Plain_Old_Java_Object)
 
-아래 그림은 스프링 소스의 CTO인 아드라인 콜리어가 스프링의 핵심 개념을 설명하기 위해 만든 그림입니다. 그림에서도 알 수 있듯이 스프링의 핵심은 `DI`,`AOP, `서비스 추상화를 통해 복잡한 엔터프라이즈 기능을 구현하고 핵심 비지니스 로직을 담은 POJO에 제공하는 것이다.
+아래 그림은 스프링 소스의 CTO인 아드라인 콜리어가 스프링의 핵심 개념을 설명하기 위해 만든 그림입니다. 그림에서도 알 수 있듯이 스프링의 핵심은 `DI`,`AOP`, `서비스 추상화`를 통해 복잡한 엔터프라이즈 기능을 구현하고 핵심 비지니스 로직을 담은 POJO에 제공하는 것입니다.
+
+![01 02](https://kjpmj-blog.netlify.app/static/fa898362ebbc8b9de6ef89062214c9f7/484ae/01-02.png)
+
+### 4-2. POJO의 조건
+
+POJO는 평범한 자바오브젝트라는 뜻이지만 다음의 세 가지 조건을 충족해야 합니다.
+
+-   특정 규약에 종속되지 않아야 한다.
+-   특정 환경에 종속되지 않아야 한다.
+-   책임과 역할이 다른 코드를 한 클래스에 몰아 넣은 덩치 큰 만능 클래스가 아니여야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyMjU5MjY2LDEyMDYzMzg0MywxMjA1Mj
-QwNjI5LC04ODQ0ODI5NzIsMTk0Mzk2MzE3OV19
+eyJoaXN0b3J5IjpbMTYxNTAyNTcxNCwxMjA2MzM4NDMsMTIwNT
+I0MDYyOSwtODg0NDgyOTcyLDE5NDM5NjMxNzldfQ==
 -->

@@ -4,8 +4,9 @@
 
 # 예제로 배우는 스프링
 
-### 1.  스프링의 등장 배경
+## 1.  스프링의 등장 배경
 
+#### 1-1. 기존 기술의 문제
 새로운 기술의 등장은 이미 사용 중인 기술의 불편함과 문제점을 해결하고자 하는 데서 비롯됩니다. 스프링 이전 자바 엔터프라이즈 프레임워크는 `EJB(Enterprise Java Bean)`이라는 기술이 많이 쓰였다고 합니다. 당시 `EJB`는 기술에 대한 과도한 욕심으로 인해 개발 환경과 운영 서버, 개발과 테스트 등의 과정을 모두 무겁고 복잡하게 만들었습니다. 또한 `EJB`가 동작하려면 고가의 느리고 무거운 자바 WAS가 필요했고 다루기 힘든 난해한 설정 파일 구조 등 여러모로 개발하기 힘든 환경 이였다고 합니다. 이러한 상황 속에서 `로드 존슨`이라는 사람이 2002년 `Expert One-on-One J2EE Design and Development`이라는 책을 출판했습니다.
 
 
@@ -16,6 +17,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzM2NzM0MCwtODg0NDgyOTcyLDE5ND
-M5NjMxNzldfQ==
+eyJoaXN0b3J5IjpbNzg3MjMzMTY4LC04ODQ0ODI5NzIsMTk0Mz
+k2MzE3OV19
 -->
